@@ -12,7 +12,7 @@ const db=mongoose.connection;
 db.on('connected', () => console.log('connected'));
 db.on('disconnected', () => console.log('disconnected'));
 
-
+//export module
 module.exports=db;
 
 
